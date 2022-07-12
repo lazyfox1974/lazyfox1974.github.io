@@ -1,1 +1,78 @@
-theme: jekyll-theme-minimal
+# Site Settings
+lang: ja
+title: Lazyfox's Den
+tagline: Lazyfox's Den
+email: lazyfox1974@gmail.com
+description: >
+  
+baseurl: ""
+url: "https://lazyfox.blog"
+domain: lazyfox.blog
+permalink: pretty
+#favicon: /path/to/favicon.png
+#gh_sponsor: chrisrhymes
+#hide_share_buttons: true
+theme_color: '#c4975e'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Disqus Comments
+#disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  # shortname: csrhymes
+
+
+remote_theme: chrisrhymes/bulma-clean-theme
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+#livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+#google_analytics: UA-code-here
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Lazyfox"
+      layout: post
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu
+
