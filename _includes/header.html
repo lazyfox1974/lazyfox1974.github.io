@@ -32,12 +32,26 @@
             </div>
 
             <div class="navbar-end">
+                {% if site.twitter_username %}
+                <a class="navbar-item" href="https://twitter.com/{{ site.twitter_username }}">
+                    <span class="icon twitter"><i class="fab fa-lg fa-twitter"></i></span>
+                </a>
+                {% endif %}
+                {% if site.github_username %}
+                <a class="navbar-item" href="https://github.com/{{ site.github_username }}">
+                    <span class="icon github"><i class="fab fa-lg fa-github"></i></span>
+                </a>
+                {% endif %}
                 {% if site.gh_sponsor %}
                 <a class="navbar-item" href="https://github.com/sponsors/{{ site.gh_sponsor }}">
                     <span class="icon gh-sponsor"><i class="fas fa-heart"></i></span>
                     <span>Sponsor</span>
                 </a>
                 {% endif %}
+                <a class="navbar-item" href="{{ site.baseurl }}/feed.xml">
+                    <span class="icon rss-feed"><i class="fas fa-lg fa-rss-square"></i></span>
+                </a>
+
             </div>
 
         </div>
