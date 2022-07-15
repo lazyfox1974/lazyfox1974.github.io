@@ -6,7 +6,8 @@ email: lazyfox1974@gmail.com
 description: >
   
 baseurl: ""
-url: "https://lazyfox1974.github.io"
+url: "https://lazyfox.blog"
+domain: lazyfox.blog
 permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: chrisrhymes
@@ -26,6 +27,8 @@ paginate_path: "/blog/page:num"
   # shortname: my_disqus_shortname
   # shortname: csrhymes
 
+
+remote_theme: chrisrhymes/bulma-clean-theme
 
 plugins:
   - jekyll-sitemap
