@@ -4,9 +4,9 @@ layout: default
 
 <div class="content">
 
-    <p>投稿日: {{ page.date | date: "%Y年%m月%d日 %H:%M" }}
+    <p>投稿日: {{ page.date | date: "%Y年%m月%d日 %H:%M %Z" }}
     {% if page.update %}
-        <br/>更新日: {{ page.update | date: "%Y年%m月%d日 %H:%M" }}
+        <br/>更新日: {{ page.update | date: "%Y年%m月%d日 %H:%M %Z" }}
     {% endif %}
     </p>
 
