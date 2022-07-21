@@ -1,5 +1,6 @@
 ---
 ---
 // Import Main CSS file from theme
-$primary: #c4975e;
+@import "mytheme";
 @import "main";
+@import "mystyle";

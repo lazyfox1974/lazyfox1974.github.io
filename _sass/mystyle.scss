@@ -1,0 +1,90 @@
+h2 {
+    padding: 8px 4px 8px 12px;
+    background-color: findLightColor($primary);
+    border-left: 6px solid $primary;
+}
+  
+h3 {
+    padding: 0 0 8px;
+    border-bottom: solid 2px $primary;
+}
+
+kbd {
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    font-family: $family-monospace;
+    font-size: 92%;
+    line-height: 1.0;
+    color: #202020;
+    background-color: #E0E0E0;
+    border: 1px solid #606060;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 1px 1px 1px rgba(255, 255, 255, 0.3) inset;
+    white-space: pre-wrap;
+}
+
+@mixin dl-mixin($char-color, $border-color, $bg-color, $content) {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    padding: 0.5em 1.5em 0.75em 1em;
+    font-size: smaller;
+    color: $char-color;
+    border-left: 0.25em solid $border-color;
+    background-color: $bg-color;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+    > dt {
+        font-weight: bold;
+    font-style: normal;
+    margin-top: inherit;
+        &::before {
+            content: $content;
+            font-size: 1.6em;
+            font-weight: 900;
+            font-family: 'Font Awesome 5 Free';
+            color: $border-color;
+            vertical-align: middle;
+            margin-left: -0.25em;
+            padding-right: 0.25em;
+        }
+        &:empty {
+            display: none;
+            + dd {
+                margin: -0.2em -0.8em -0.6em -0.5em;
+            }
+        }
+    }
+    > dd {
+        margin-left: 0.5em;
+        margin-bottom: 0;
+        &::after {
+            content: ' ';
+        }
+        > ul {
+            margin: 0 0 0 0.5em;
+            padding-left: 0.5em;
+            > li::after {
+                content: ' ';
+            }
+        }
+    }
+}
+
+dl.note {
+    @include dl-mixin(#4d4d4d, #9E9E9E, #F4F4F4, '\f15c');
+}
+dl.tip {
+    @include dl-mixin(#12803e, #1DCD63, #E9F8EE, '\f058');
+}
+dl.info{
+    @include dl-mixin(#006f80, #00B8D4, #E8F7FA, '\f05a');
+}
+dl.warning{
+    @include dl-mixin(#b36602, #FF9001, #FEF3E8, '\f071');
+}
+dl.caution{
+    @include dl-mixin(#b3003e, #F50057, #FEE7EE, '\f05e');
+}
