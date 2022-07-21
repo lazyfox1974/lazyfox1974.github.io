@@ -9,7 +9,7 @@ baseurl: ""
 url: "https://lazyfox.blog"
 domain: lazyfox.blog
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: /img/favicon.png
 #gh_sponsor: chrisrhymes
 #hide_share_buttons: true
 theme_color: '#c4975e'
@@ -37,6 +37,8 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jemoji
 
 exclude: 
   - Gemfile
@@ -73,7 +75,7 @@ defaults:
       show_sidebar: true
 
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 
 footer_menu: example_footer_menu
 twitter_username: lazyfox1974
