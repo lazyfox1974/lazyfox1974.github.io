@@ -4,10 +4,11 @@ layout: default
 
 <div class="content">
 
-    <p>投稿日: {{ page.date | date: "%Y年%m月%d日 %H:%M %Z" }}
-    {% if page.update %}
-        <br/>更新日: {{ page.update | date: "%Y年%m月%d日 %H:%M %Z" }}
-    {% endif %}
+    <p class="is-family-monospace">
+      投稿日: {{ page.date | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
+      {%- if page.modified -%}
+        <br>更新日: {{ page.modified | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
+      {%- endif -%}
     </p>
 
     {% if page.series %}
