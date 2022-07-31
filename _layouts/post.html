@@ -10,18 +10,17 @@ layout: default
         <br>更新日: {{ page.modified | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
       {%- endif -%}
     </p>
-
+    <div class="tags">
+      {% for tag in page.tags %}
+        {% include tag.html tag=tag style="is-info is-light"%}
+      {% endfor %}
+    </div>
+  
     {% if page.series %}
         {% include series.html %}
     {% endif %}
 
     {{ content }}
-</div>
-
-<div class="tags">
-    {% for tag in page.tags %}
-      {% include tag.html tag=tag %}
-    {% endfor %}
 </div>
 
 {% unless site.hide_share_buttons %}
