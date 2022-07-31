@@ -2,7 +2,8 @@
     <div class="container">
         <div class="navbar-brand">
             <a href="{{ site.baseurl }}/" class="navbar-item">
-                <img class="pr-2" src="{{ site.baseurl }}/img/favicon.png">
+                <!-- サイトアイコンをナビゲーションバーに追加 -->
+                <img class="pr-2" src="{{ '/img/favicon.png' | relative_url }}">
                 {{ site.title }}
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
@@ -32,7 +33,7 @@
                 {% endif %}
             </div>
 
-            <div class="navbar-end">
+            <div class="navbar-end">    <!-- twitter, Github, RSSのアイコンを追加 -->
                 {% if site.twitter_username %}
                 <a class="navbar-item" href="https://twitter.com/{{ site.twitter_username }}">
                     <span class="icon twitter"><i class="fab fa-lg fa-twitter"></i></span>

@@ -77,7 +77,7 @@ defaults:
 markdown: kramdown
 #highlighter: rouge
 
-footer_menu: example_footer_menu
+footer_menu: footer_menu
 twitter_username: lazyfox1974
 github_username:  lazyfox1974
 
