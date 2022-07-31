@@ -4,15 +4,19 @@
 
 ## Webテーマについて
 Webテンプレートに使用しているテーマは [C.S. Rhymes氏](https://www.csrhymes.com/)の**bulma-clean-theme**をベースにカスタマイズしたものになっています。  
-このリポジトリには差分のみ収録されていますので、参考にされる方は大本のレポジトリ「[bulma-clean-theme](https://github.com/chrisrhymes/bulma-clean-theme)」も併せてご覧ください.
+このリポジトリには差分のみ収録されていますので、参考にされる方は大本のレポジトリ「[bulma-clean-theme](https://github.com/chrisrhymes/bulma-clean-theme)」も併せてご覧ください。
 
 ## 著作権等表示
 ### オープンソースについて
 当サイトでは、以下のオープンソースソフトウェアを利用しています。
 
-- bulma-clean-theme
-    Copyright (c) 2018 chrisrhymes
-    MITライセンスのもとで配布されています。
+<dl>
+    <dt>bulma-clean-theme</dt>
+    <dd>
+        Copyright (c) 2018 chrisrhymes  
+        MITライセンスのもとで配布されています。
+    </dd>
+</dl>
 
 当方で行った改変の著作権を放棄し、既存のライセンス条項に則るものとします。
 ### 画像およびイラストについて
