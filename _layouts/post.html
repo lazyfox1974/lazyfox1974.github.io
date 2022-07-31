@@ -5,11 +5,13 @@ layout: default
 <div class="content">
 
     <p class="is-family-monospace">
+      <!-- 投稿日、更新日フォーマット変更 -->
       投稿日: {{ page.date | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
       {%- if page.modified -%}
         <br>更新日: {{ page.modified | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
       {%- endif -%}
     </p>
+    <!-- タグ表示位置変更 -->
     <div class="tags">
       {% for tag in page.tags %}
         {% include tag.html tag=tag style="is-info is-light"%}

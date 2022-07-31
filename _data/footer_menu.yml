@@ -2,9 +2,9 @@
   link: /
 - name: Blog
   link: /blog/
-- name: Tags
+- name: Tags    # タグ一覧ページ追加
   link: /tag/
-- name: About
+- name: About   # アバウトページ追加
   link: /about/
 - name: Privacy Policy
   link: /privacy-policy/

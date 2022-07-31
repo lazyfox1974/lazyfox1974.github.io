@@ -20,10 +20,12 @@
             {% endif %}
         </div>
         <div class="has-text-centered">
+            <!-- 「Read more」を「記事を読む」へ変更 -->
             <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary">記事を読む</a>
         </div>
     </div>
     <footer class="card-footer">
+        <!-- 投稿日フォーマット変更 -->
         <p class="card-footer-item">投稿日: {{ post.date | date: "%Y年%m月%d日" }}</p>
     </footer>
 </div>

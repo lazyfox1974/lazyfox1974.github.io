@@ -12,7 +12,7 @@ permalink: pretty
 favicon: /img/favicon.png
 #gh_sponsor: chrisrhymes
 #hide_share_buttons: true
-theme_color: '#c4975e'
+theme_color: '#c4975e'    # テーマカラー変更
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 timezone: Asia/Tokyo
@@ -27,7 +27,7 @@ paginate_path: "/blog/page:num"
   # shortname: my_disqus_shortname
   # shortname: csrhymes
 
-
+# リモートテーマ
 remote_theme: chrisrhymes/bulma-clean-theme
 
 plugins:
@@ -37,8 +37,8 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
-  - jekyll-remote-theme
-  - jemoji
+  - jekyll-remote-theme   # リモートテーマプラグイン追加
+  - jemoji                # 絵文字プラグイン追加
 
 exclude: 
   - Gemfile
@@ -75,7 +75,7 @@ defaults:
       show_sidebar: true
 
 markdown: kramdown
-#highlighter: rouge
+#highlighter: rouge   # ハイライター変更
 
 footer_menu: footer_menu
 twitter_username: lazyfox1974

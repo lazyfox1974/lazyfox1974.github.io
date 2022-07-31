@@ -1,4 +1,4 @@
 - name: Blog
   link: /blog/
-- name: About
+- name: About     # アバウトページ追加
   link: /about/

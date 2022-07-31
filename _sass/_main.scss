@@ -1,7 +1,8 @@
 @charset "utf-8";
-//@import url('https://fonts.googleapis.com/css?family=Montserrat');  // unuse
+// 当サイトでは google font は使用しない
+//@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-$family-sans-serif: 'Montserrat', sans-serif !default;  // change from enforced value
+$family-sans-serif: 'Montserrat', sans-serif !default;  // 設定の強制上書きを変更
 $primary: #188eac !default;
 
 $tabs-link-active-color: $primary;
@@ -13,7 +14,7 @@ $modal-content-width: 800px;
 $hero-darken: $dark !default;
 
 @import "layout";
-//@import "syntax";
+//@import "syntax";   // ハイライターのスタイル変更
 @import "showcase";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
 
