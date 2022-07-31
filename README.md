@@ -9,16 +9,15 @@ Webテンプレートに使用しているテーマは [C.S. Rhymes氏](https://
 ## 著作権等表示
 ### オープンソースについて
 当サイトでは、以下のオープンソースソフトウェアを利用しています。
-
 <dl>
     <dt>bulma-clean-theme</dt>
     <dd>
-        Copyright (c) 2018 chrisrhymes  
+        Copyright (c) 2018 chrisrhymes<br>
         MITライセンスのもとで配布されています。
     </dd>
 </dl>
-
 当方で行った改変の著作権を放棄し、既存のライセンス条項に則るものとします。
+
 ### 画像およびイラストについて
 当サイトで使用されている画像およびイラストについて、ブログ記事以外のものは基本的にAC Works様の[illustAC](https://www.ac-illust.com/), [photoAC](https://www.photo-ac.com/), [silhouetteAC](https://www.silhouette-ac.com/)を使用しています。
 ### コンテンツについて
