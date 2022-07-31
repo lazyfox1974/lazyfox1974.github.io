@@ -3,6 +3,7 @@ layout: post
 title: markdown test2
 description: マークダウンのテスト2
 date: 2022-07-15 18:15:00 +0900
+tags: markdown test 日本語
 mathjax: true
 ---
 
