@@ -1,6 +1,6 @@
 {% comment %} アンカーリンクを追加 {% endcomment %}
 <span class="tag {% if include.style %} {{ include.style }} {% else %} is-primary {% endif %}">
-    <a href="/tag/#{{ include.tag }}">
+    <a href="{{ site.tag_path }}/#{{ include.tag }}">
         {{ include.tag }}
     </a>
 </span>
