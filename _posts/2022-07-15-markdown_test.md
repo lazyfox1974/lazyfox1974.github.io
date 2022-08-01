@@ -5,6 +5,7 @@ description: マークダウンのテスト2
 date: 2022-07-15 18:15:00 +0900
 tags: markdown test 日本語
 mathjax: true
+summary: markdown compilation test, modified from [remarkable demo](https://jonschlinkert.github.io/remarkable/demo/).
 ---
 
 # Markdown Preview Enhanced
