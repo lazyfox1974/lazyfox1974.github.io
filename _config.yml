@@ -77,7 +77,9 @@ defaults:
       show_sidebar: true
 
 markdown: kramdown
-#highlighter: hljs   # ハイライター変更。rouge以外に設定すること。そうしないとレンダリング権限を渡してくれない。
+kramdown:
+  syntax_highlighter_opts:
+    disable: true   # ハイライター変更。rougeを無効
 
 footer_menu: footer_menu
 twitter_username: lazyfox1974
