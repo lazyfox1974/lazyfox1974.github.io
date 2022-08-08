@@ -1,12 +1,13 @@
 h2 {
-    padding: 8px 4px 8px 12px;
+    padding: 16px 16px 16px 10px;
     background-color: findLightColor($primary);
-    border-left: 6px solid $primary;
+    border-left: 8px solid $primary;
 }
   
 h3 {
-    padding: 0 0 8px;
-    border-bottom: solid 2px $primary;
+    padding: 6px 6px 6px 13px;
+    border-bottom: dotted 1px $grey-light;
+    border-left: 5px solid $primary;
 }
 
 kbd {
@@ -25,6 +26,57 @@ kbd {
     white-space: pre-wrap;
 }
 
+.post-list {
+    li{
+        list-style-type: none;
+        a{
+            font-weight: bold;
+        }
+        span{
+            color: $grey;
+        }
+
+    }
+}
+
+.content {
+    color: #000000;
+    pre{
+        padding: 0.2em;
+        &[data-title]::before{
+            content: attr(data-title);
+            margin: 0em 1.0em;
+            padding: 0.4em 0.3em 0.1em;
+            color: $white;
+            background: $grey;
+        }
+    }
+
+    blockquote{
+        position: relative;
+        padding-left: 45px;
+        border-left: 0px;
+        background-color: $white;
+        box-shadow: 2px 2px 6px hsla(0, 0%, 80%, 1.00);
+        &::before{
+            content: "\201C";
+            font-size: 60px;
+            font-weight: bold;
+            color: #999;
+            position: absolute;
+            top: 0px;
+            left: 10px;
+        }
+        cite{
+            text-align: right;
+            display: block;
+            font-style: normal;
+        }
+    }
+}
+
+
+
 @mixin dl-mixin($char-color, $border-color, $bg-color, $content) {
     margin-left: 0.25em;
     margin-right: 0.25em;
@@ -38,8 +90,8 @@ kbd {
     box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
     > dt {
         font-weight: bold;
-    font-style: normal;
-    margin-top: inherit;
+        font-style: normal;
+        margin-top: inherit;
         &::before {
             content: $content;
             font-size: 1.6em;
