@@ -10,6 +10,12 @@ h3 {
     border-left: 5px solid $primary;
 }
 
+h4 {
+    &::before{
+        content: "・";
+    }
+}
+
 kbd {
     display: inline-block;
     vertical-align: text-top;
@@ -40,9 +46,14 @@ kbd {
 }
 
 .content {
-    color: #000000;
+
+    .post-date {
+        font-family: $family-monospace;
+        font-size: $small-font-size;
+        line-height: 1.2em;
+    }
+
     pre{
-        padding: 0.2em;
         &[data-title]::before{
             content: attr(data-title);
             margin: 0em 1.0em;
@@ -55,7 +66,6 @@ kbd {
     blockquote{
         position: relative;
         padding-left: 45px;
-        border-left: 0px;
         background-color: $white;
         box-shadow: 2px 2px 6px hsla(0, 0%, 80%, 1.00);
         &::before{

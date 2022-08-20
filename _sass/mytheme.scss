@@ -3,5 +3,9 @@ $primary: #c4975e;
 // 表示フォントの変更
 $family-sans-serif: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 $family-monospace:   Menlo, Monaco, Consolas, "DejaVu Sans Mono", "Liberation Mono", "Courier New", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif; 
-// 基本フォントサイズ変更
-$body-size: 14px;
+// 基本フォントカラー変更
+$text: #000000;
+// 整形済みテキストのパディングを調整
+$content-pre-padding: 0.2em;
+// 引用スタイルの左側ボーダーを削除
+$content-blockquote-border-left: 0px;

@@ -4,7 +4,7 @@ layout: default
 
 <div class="content">
 
-    <p class="is-family-monospace">
+    <p class="post-date">
       <!-- 投稿日、更新日フォーマット変更 -->
       投稿日: {{ page.date | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
       {%- if page.modified -%}

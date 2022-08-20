@@ -1,0 +1,9 @@
+<p class="title is-4">最近の投稿</p>
+<!-- 日本語化 -->
+<div class="columns is-multiline">
+    {% for post in site.posts limit:3 %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
