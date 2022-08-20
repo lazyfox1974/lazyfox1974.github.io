@@ -74,6 +74,7 @@ defaults:
     values:
       author: "Lazyfox"
       layout: post
+      image: "/img/default.png"
       show_sidebar: true
 
 markdown: kramdown
