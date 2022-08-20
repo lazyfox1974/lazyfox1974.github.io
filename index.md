@@ -2,8 +2,17 @@
 title: Lazyfox's Den
 subtitle: ぐ〜たら狐の巣穴
 layout: page
-show_sidebar: true
-hero_image: /img/lazyfox.jpg
+show_sidebar: false
+hero_image: /img/fox1.jpg
 ---
 
-# :construction::construction: **Under Construction** :construction::construction:
+### このサイトについて
+このサイトは、技術的なことを中心に調べたことを備忘録を兼ねて公開したり、適当なネタ話を書くだけだったり、体験談とか書き綴ったりすることを目的としたウェブサイトです。  
+あくまでも個人的なサイトです。特に誰かのために書いてる訳ではありません。でも、このサイトが誰かの助けになるのなら幸いです。
+### ブログ
+{% include blog-list.html %}
+[もっと見る…]({% link blog/index.html %})
+### ソフトウェア
+今はまだないですが、当方で作成したソフトウェアの公開をおこなっていきます。
+
+:construction::construction: **工事中** :construction::construction:
