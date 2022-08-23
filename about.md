@@ -30,8 +30,8 @@ show_sidebar: false
 
 ### 言語：Language Master
 
-| Skill Level | Language　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|
-|:----------- |:--------------------------------------------------------------------------- |
+| Skill Level　 | Language　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 |
+|:----------- |:-------------------------------------------------------------------------- |
 | MASTER      | Japanese                                                                    |
 | EXPERT      | ANSI C                                                                      |
 | ADEPT       | JavaScript                                                                  |
