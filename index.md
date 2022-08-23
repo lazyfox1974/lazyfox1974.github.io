@@ -11,7 +11,7 @@ hero_image: /img/fox1.jpg
 あくまでも個人的なサイトです。特に誰かのために書いてる訳ではありません。でも、このサイトが誰かの助けになるのなら幸いです。
 ### ブログ
 {% include blog-list.html %}
-[もっと見る…]({% link blog/index.html %})
+<a class="button is-link is-light" href="{% link blog/index.html %}">もっと見る…</a>
 ### ソフトウェア
 今はまだないですが、当方で作成したソフトウェアの公開をおこなっていきます。
 
