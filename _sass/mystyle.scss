@@ -45,6 +45,10 @@ kbd {
     }
 }
 
+pre {
+    background-color: $body-background-color;
+}
+
 .content {
 
     .post-date {
@@ -57,7 +61,7 @@ kbd {
         &[data-title]::before{
             content: attr(data-title);
             margin: 0em 1.0em;
-            padding: 0.4em 0.3em 0.1em;
+            padding: 0.4em 0.3em 0.2em;
             color: $white;
             background: $grey;
         }
