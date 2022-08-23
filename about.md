@@ -30,17 +30,17 @@ show_sidebar: false
 
 ### 言語：Language Master
 
-| Skill Level | Language　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|
-|:----------- |:--------------------------------------------------------------------------- |
-| MASTER      | Japanese                                                                    |
-| EXPERT      | ANSI C                                                                      |
-| ADEPT       | JavaScript                                                                  |
-| ARTISAN     | Ruby<br>VisualBASIC                                                         |
-| CRAFTSMAN   | Assembler(PIC)<br>BASIC(Unstructured)                                       |
-| JOURNEYMAN  | Python<br>Perl<br>HTML<br>CSS(SASS,SCSS)                                    |
-| APPRENTICE  | Assembler(PowerQUICC)<br>FORTRAN77                                          |
-| NOVICE      | Assembler(Z80, H8, SH)<br>PHP<br>Prolog                                     |
-| NEOPHYTE    | English                                                                     |
+| Skill Level | Language　　　　　　　　　　　　　　　　　　　　　|
+|:----------- |:------------------------------------------ |
+| MASTER      | Japanese                                   |
+| EXPERT      | ANSI C                                     |
+| ADEPT       | JavaScript                                 |
+| ARTISAN     | Ruby<br>VisualBASIC                        |
+| CRAFTSMAN   | Assembler(PIC)<br>BASIC(Unstructured)      |
+| JOURNEYMAN  | Python<br>Perl<br>HTML<br>CSS(SASS,SCSS)   |
+| APPRENTICE  | Assembler(PowerQUICC)<br>FORTRAN77         |
+| NOVICE      | Assembler(Z80, H8, SH)<br>PHP<br>Prolog    |
+| NEOPHYTE    | English                                    |
 
 ### ちゅき:sparkling_heart:：My favorite
 * きつねさん
