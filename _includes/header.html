@@ -36,12 +36,12 @@
             <div class="navbar-end">    <!-- twitter, Github, RSSのアイコンを追加 -->
                 {% if site.twitter_username %}
                 <a class="navbar-item" href="https://twitter.com/{{ site.twitter_username }}">
-                    <span class="icon twitter"><i class="fab fa-lg fa-twitter"></i></span>
+                    <span class="icon"><i class="fab fa-lg fa-twitter"></i></span>
                 </a>
                 {% endif %}
                 {% if site.github_username %}
                 <a class="navbar-item" href="https://github.com/{{ site.github_username }}">
-                    <span class="icon github"><i class="fab fa-lg fa-github"></i></span>
+                    <span class="icon"><i class="fab fa-lg fa-github"></i></span>
                 </a>
                 {% endif %}
                 {% if site.gh_sponsor %}
@@ -51,7 +51,7 @@
                 </a>
                 {% endif %}
                 <a class="navbar-item" href="{{ site.baseurl }}/feed.xml">
-                    <span class="icon rss-feed"><i class="fas fa-lg fa-rss-square"></i></span>
+                    <span class="icon"><i class="fas fa-lg fa-rss-square"></i></span>
                 </a>
 
             </div>
