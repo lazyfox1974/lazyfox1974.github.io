@@ -75,7 +75,7 @@ pre {
         background-color: $white;
         box-shadow: 2px 2px 6px hsla(0, 0%, 80%, 1.00);
         &::before{
-            content: url(/img/quote.png);
+            content: url(/assets/img/quote.png);
             position: absolute;
             top: 10px;
             left: 10px;

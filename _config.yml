@@ -9,7 +9,7 @@ baseurl: ""
 url: "https://lazyfox.blog"
 domain: lazyfox.blog
 permalink: pretty
-favicon: /img/favicon.png
+favicon: /assets/img/favicon.png
 #gh_sponsor: chrisrhymes
 #hide_share_buttons: true
 theme_color: '#c4975e'    # テーマカラー変更
@@ -74,7 +74,7 @@ defaults:
     values:
       author: "Lazyfox"
       layout: post
-      image: "/img/default.png"
+      image: "/assets/img/default.png"
       show_sidebar: true
 
 markdown: kramdown

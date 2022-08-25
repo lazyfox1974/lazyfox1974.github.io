@@ -2,7 +2,7 @@
 title: About me
 subtitle: Lazyfoxって何者
 layout: page
-hero_image: /img/fox3.jpg
+hero_image: /assets/img/fox3.jpg
 show_sidebar: false
 ---
 

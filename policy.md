@@ -2,7 +2,7 @@
 title: Policy
 subtitle: サイトおよびプライバシー方針
 layout: page
-hero_image: /img/fox6.jpg
+hero_image: /assets/img/fox6.jpg
 show_sidebar: false
 ---
 ## サイトポリシー

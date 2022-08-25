@@ -3,7 +3,7 @@ title: Lazyfox's Den
 subtitle: ぐ〜たら狐の巣穴
 layout: page
 show_sidebar: false
-hero_image: /img/fox1.jpg
+hero_image: /assets/img/fox1.jpg
 ---
 
 ### このサイトについて
