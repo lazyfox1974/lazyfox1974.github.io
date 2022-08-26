@@ -2,6 +2,7 @@
 .bundle
 .sass-cache
 _site
+_drafts
 .jekyll-cache
 Gemfile.lock
 .idea
