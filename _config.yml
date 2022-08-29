@@ -23,11 +23,8 @@ paginate_path: "/blog/page:num"
 tag_path: "/tag"      # タグ一覧ページのパス
 
 # Disqus Comments
-#disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  # shortname: csrhymes
+disqus:
+  shortname: lazyfox
 
 # リモートテーマ
 remote_theme: chrisrhymes/bulma-clean-theme
