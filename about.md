@@ -20,8 +20,8 @@ show_sidebar: false
 
 ### 略歴：Biography
 1980年代前半の第二次マイコンブームの波に乗る。ここからPC人生が始まる。  
-小学２年の頃、お年玉で[PB-100(Casio)](https://ja.wikipedia.org/wiki/PB-100)を手に入れBASICを学ぶ。  
-小学４年の頃、[MZ-2200(Sharp)](https://ja.wikipedia.org/wiki/MZ-2000#MZ-2200)を買ってもらいCommodoreBASIC互換？のS-BASICを習得。のちにマシン語(ハンドアセンブル)に手を出すが挫折。  
+小学２年の頃、お年玉で[PB-100(Casio)](https://ja.wikipedia.org/wiki/PB-100){: data-ext="true"}を手に入れBASICを学ぶ。  
+小学４年の頃、[MZ-2200(Sharp)](https://ja.wikipedia.org/wiki/MZ-2000#MZ-2200){: data-ext="true"}を買ってもらいCommodoreBASIC互換？のS-BASICを習得。のちにマシン語(ハンドアセンブル)に手を出すが挫折。  
 中学、高校時代、PCには興味がなく大きなブランクが空く。  
 大学時代、「SimCity2000」をしたいがためだけにMacintoshを買い、ブランク期間の隔世の感に驚く。  
 大学卒業後は、会社員としてとあるメーカーでハードウェア設計に従事。ハード寄りのファームウェアの開発も行う。  

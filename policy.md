@@ -34,10 +34,10 @@ MathJax
 上記のオープンソースソフトウェアに対して当サイトで行なった改変部位の著作権は放棄し、既存のライセンス条項に則るものとします。
 
 #### Webテーマについて
-Webテンプレートに使用しているテーマは [C.S. Rhymes氏](https://www.csrhymes.com/)の**bulma-clean-theme**をベースにカスタマイズしたものになっています。  
+Webテンプレートに使用しているテーマは [C.S. Rhymes氏](https://www.csrhymes.com/){: data-ext="true"}の**bulma-clean-theme**をベースにカスタマイズしたものになっています。  
 
 #### 画像およびイラストについて
-当サイトで使用されている画像およびイラストについて、ブログ記事以外のものは基本的にAC Works様の[illustAC](https://www.ac-illust.com/), [photoAC](https://www.photo-ac.com/), [silhouetteAC](https://www.silhouette-ac.com/)を使用しています。
+当サイトで使用されている画像およびイラストについて、ブログ記事以外のものは基本的にAC Works様の[illustAC](https://www.ac-illust.com/){: data-ext="true"}, [photoAC](https://www.photo-ac.com/){: data-ext="true"}, [silhouetteAC](https://www.silhouette-ac.com/){: data-ext="true"}を使用しています。
 #### コンテンツについて
 ブログ記事も含めた当サイトで公開されているコンテンツ(画像やテキストおよびデータなど)に関する権利については、当サイトまたは原著作者に帰属します。  
 目的や形態を問わず、当サイト内のコンテンツの無断転載或いは全文引用することを禁止します。引用するにあたっては引用元を明示するとともに、著作権法が規定する範囲内での利用をお願いします。RSSやFeedを利用したコンテンツの引用についても同様とします。
@@ -47,11 +47,11 @@ Webテンプレートに使用しているテーマは [C.S. Rhymes氏](https://
 当サイトは、一部のコンテンツにて Cookie（クッキー）を利用しています。
 Cookie とは、web コンテンツへのアクセスに関する情報であり、お名前・メールアドレス・住所・電話番号など、個人を特定する情報は含まれません。
 効果的な広告の配信やアクセス解析の際に、Cookie 情報を利用させていただく場合がございます。
-Cookie を無効にする方法は[こちら](https://policies.google.com/technologies/ads?gl=jp)を参照してください。
+Cookie を無効にする方法は[こちら](https://policies.google.com/technologies/ads?gl=jp){: data-ext="true"}を参照してください。
 ### アクセス解析ツールについて
 当サイトでは、Google によるアクセス解析ツール「Google アナリティクス」を利用しています。
 Google アナリティクスはアクセス情報の収集のために Cookie を使用しています。このアクセス情報は匿名で収集されており、個人を特定するものではありません。
-Google 社のデータ収集・処理の仕組みについては、[こちら](https://policies.google.com/technologies/partner-sites?hl=ja)をご覧ください。
+Google 社のデータ収集・処理の仕組みについては、[こちら](https://policies.google.com/technologies/partner-sites?hl=ja){: data-ext="true"}をご覧ください。
 
 ## コメントポリシー
 このサイトに関するコメントは歓迎いたします。どんどん書き込んでいただいても構いません。但し、以下のケースにおいては、編集または削除をコメント投稿者への通告なしに行う場合があります。

@@ -50,6 +50,11 @@ pre {
 
 .content {
     
+    a[data-ext="true"]::after{
+        content: ' \f35d';
+        font-weight: 600;
+        font-family: 'Font Awesome 5 Free';
+    }
     table{
         width: initial;
     }
