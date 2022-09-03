@@ -48,6 +48,12 @@ pre {
     background-color: $body-background-color;
 }
 
+.hero-body {
+    .title, .subtitle{
+        text-shadow: 2px 2px 5px #000;
+    }
+}
+
 .content {
     
     a[data-ext="true"]::after{
