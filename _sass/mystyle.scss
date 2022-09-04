@@ -55,7 +55,6 @@ pre {
 }
 
 .content {
-    
     a[data-ext="true"]::after{
         content: ' \f35d';
         font-weight: 600;
@@ -106,8 +105,6 @@ pre {
         }
     }
 }
-
-
 
 @mixin dl-mixin($char-color, $border-color, $bg-color, $content) {
     margin-left: 0.25em;

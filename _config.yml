@@ -17,7 +17,7 @@ theme_color: '#c4975e'    # テーマカラー変更
 #direction: one of <ltr, rtl, auto>, default: ltr
 timezone: Asia/Tokyo
 
-paginate: 5
+paginate: 8
 paginate_path: "/blog/page:num"
 
 tag_path: "/tag"      # タグ一覧ページのパス
