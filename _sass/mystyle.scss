@@ -50,14 +50,14 @@ pre {
 
 .hero-body {
     .title, .subtitle{
-        text-shadow: 2px 2px 5px #000;
+        text-shadow: 2px 2px 5px #000000;
     }
 }
 
 .content {
     a[data-ext="true"]::after{
         content: ' \f35d';
-        font-weight: 600;
+        font-weight: 900;
         font-family: 'Font Awesome 5 Free';
     }
 
