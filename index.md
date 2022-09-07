@@ -2,6 +2,7 @@
 title: Lazyfox's Den
 subtitle: ぐ〜たら狐の巣穴
 layout: page
+last_modified_at: 2022-09-07 00:00:00 +0900
 show_sidebar: false
 hero_image: /assets/img/fox1.jpg
 ---

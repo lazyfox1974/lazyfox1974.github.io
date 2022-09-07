@@ -2,6 +2,7 @@
 title: About me
 subtitle: Lazyfoxって何者
 layout: page
+last_modified_at: 2022-09-07 00:00:00 +0900
 hero_image: /assets/img/fox3.jpg
 show_sidebar: false
 ---
