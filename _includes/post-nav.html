@@ -1,20 +1,21 @@
 <!--
-<div style="display: flex; justify-content: space-between;">
-    <div style="width: 250; background-color:#ccc;">
-        ← 
-        {% unless page.previous.url %}
-            記事はありません
-        {% else %}
-            <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-       {% endunless %}
+<div class="post-nav">
+    <div class="pre-post">
+        <div class="left-arrow"><i class="fas fa-chevron-left"></i></div>
+        <div class="nav-title">
+            {% unless page.previous.url %}
+                記事がありません
+            {% else %}
+                <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+            {% endunless %}
+        </div>
     </div>
-    <div style="width: 250; background-color:#ccc;">
+    <div class="next-post">
         {% unless page.next.url %}
-            記事はありません
+            記事がありません
         {% else %}
             <a href="{{ page.next.url }}">{{ page.next.title }}</a>
         {% endunless %}
-         →
     </div>
 </div>
 -->

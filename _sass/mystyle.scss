@@ -54,6 +54,35 @@ pre {
     }
 }
 
+div.post-nav {
+    display: flex;
+    justify-content: space-between;
+    .next-post{
+        padding: 1em;
+        margin: 1em;
+        background-color: findLightColor($primary);
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    .pre-post{
+        padding: 1em;
+        display: flex;
+        margin: 1em;
+        background-color: findLightColor($primary);
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    .left-arrow{
+        display: flex;
+        background-color: $primary;
+    }
+    .next-post::after{
+        content: '\f054';
+        font-weight: 900;
+        font-family: 'Font Awesome 5 Free';
+    }
+}
+
 .content {
     a[data-ext="true"]::after{
         content: ' \f35d';
