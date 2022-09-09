@@ -1,6 +1,20 @@
 <!--
 <div style="display: flex; justify-content: space-between;">
-    <div style="width: 250; background-color:#ccc;"><a href="{{ page.previous.url }}">← {{ page.previous.title }}</a></div>
-    <div style="width: 250; background-color:#ccc;"><a href="{{ page.next.url }}">{{ page.next.title }} →</a></div>
+    <div style="width: 250; background-color:#ccc;">
+        ← 
+        {% unless page.previous.url %}
+            記事はありません
+        {% else %}
+            <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+       {% endunless %}
+    </div>
+    <div style="width: 250; background-color:#ccc;">
+        {% unless page.next.url %}
+            記事はありません
+        {% else %}
+            <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+        {% endunless %}
+         →
+    </div>
 </div>
 -->
