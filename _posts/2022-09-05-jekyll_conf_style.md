@@ -3,6 +3,7 @@ layout: post
 title: jekyllのカスタマイズ(スタイル編)
 description: 
 date: 2022-09-05 21:30:00 +0900
+last_modified_at: 2022-09-10 15:00:00 +0900
 tags: jekyll
 comments: true
 image: "/img/20220905_headline.png"
@@ -154,6 +155,8 @@ html内ではクラスに`prefix`を追加することで指定できます。
 ```
 
 [Jekyll](http://jekyllrb-ja.github.io/){:data-ext="true"}←こんな感じになります
+
+それともう一つ、デフォルトの設定だとテーブルの横幅が、"100%"になっておりコンテナいっぱいに広がってしまうので、初期値に戻しています。
 
 ### _config.ymlの設定
 ```yml
