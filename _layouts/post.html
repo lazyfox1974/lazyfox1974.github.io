@@ -7,8 +7,8 @@ layout: default
     <p class="post-date">
       <!-- 投稿日、更新日フォーマット変更 -->
       投稿日: {{ page.date | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
-      {%- if page.modified -%}
-        <br>更新日: {{ page.modified | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
+      {%- if page.last_modified_at -%}
+        <br>更新日: {{ page.last_modified_at | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
       {%- endif -%}
     </p>
     <!-- タグ表示位置変更 -->
