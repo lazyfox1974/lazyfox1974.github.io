@@ -142,62 +142,56 @@ div.post-nav {
     margin-left: 0.25em;
     margin-right: 0.25em;
     padding: 0.5em 1.5em 0.75em 1em;
-    font-size: smaller;
     color: $char-color;
-    border-left: 0.25em solid $border-color;
+    border-left: 0.3em solid $border-color;
     background-color: $bg-color;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 2px 2px 6px hsla(0, 0%, 80%, 1.00);
     > dt {
         font-weight: bold;
         font-style: normal;
         margin-top: inherit;
+        padding-left: 1em;
         &::before {
             content: $content;
-            font-size: 1.6em;
+            font-size: 3em;
             font-weight: 900;
             font-family: 'Font Awesome 5 Free';
             color: $border-color;
-            vertical-align: middle;
-            margin-left: -0.25em;
-            padding-right: 0.25em;
-        }
-        &:empty {
-            display: none;
-            + dd {
-                margin: -0.2em -0.8em -0.6em -0.5em;
-            }
+            opacity: 0.3;
+            position: absolute;
+            margin-left: -0.5em;
+            margin-top: -0.2em;
         }
     }
     > dd {
-        margin-left: 0.5em;
+        margin-left: 1.5em;
         margin-bottom: 0;
-        &::after {
-            content: ' ';
-        }
         > ul {
             margin: 0 0 0 0.5em;
             padding-left: 0.5em;
-            > li::after {
-                content: ' ';
-            }
         }
     }
 }
 
+
 dl.note {
-    @include dl-mixin(#4d4d4d, #9E9E9E, #F4F4F4, '\f15c');
+    @include dl-mixin($grey-dark   , $grey    , $grey-lightest, '\f303');
 }
+
 dl.tip {
-    @include dl-mixin(#12803e, #1DCD63, #E9F8EE, '\f058');
+    @include dl-mixin($success-dark, $success , $success-light, '\f058');
 }
+
 dl.info{
-    @include dl-mixin(#006f80, #00B8D4, #E8F7FA, '\f05a');
+    @include dl-mixin($info-dark   , $info    , $info-light   , '\f05a');
 }
+
 dl.warning{
-    @include dl-mixin(#b36602, #FF9001, #FEF3E8, '\f071');
+    @include dl-mixin($warning-dark, #ffbc6b, $warning-light, '\f071');
 }
+
 dl.caution{
-    @include dl-mixin(#b3003e, #F50057, #FEE7EE, '\f05e');
+    @include dl-mixin($danger-dark , $danger  , $danger-light , '\f05e');
 }
