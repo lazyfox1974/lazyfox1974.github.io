@@ -1,21 +1,17 @@
-<!--
+
 <div class="post-nav">
-    <div class="pre-post">
-        <div class="left-arrow"><i class="fas fa-chevron-left"></i></div>
-        <div class="nav-title">
-            {% unless page.previous.url %}
-                記事がありません
-            {% else %}
-                <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-            {% endunless %}
+    <a class="pre-post {% unless page.previous %} is-invisible {% endunless %}" href="{{ page.previous.url }}">
+        <div class="pre-arrow"><i class="fas fa-chevron-left"></i></div>
+        <div class="pre-title">
+            <div>Previous Post</div>
+            <div><strong>{{ page.previous.title }}</strong></div>
         </div>
-    </div>
-    <div class="next-post">
-        {% unless page.next.url %}
-            記事がありません
-        {% else %}
-            <a href="{{ page.next.url }}">{{ page.next.title }}</a>
-        {% endunless %}
-    </div>
+    </a>
+    <a class="next-post {% unless page.next %} is-invisible {% endunless %}" href="{{ page.next.url }}">
+       <div class="next-title">
+            <div>Next Post</div>
+            <div><strong>{{ page.next.title }}</strong></div>
+        </div>
+        <div class="next-arrow"><i class="fas fa-chevron-right"></i></div>
+    </a>
 </div>
--->

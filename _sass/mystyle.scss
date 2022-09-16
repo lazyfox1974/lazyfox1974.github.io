@@ -57,29 +57,46 @@ pre {
 div.post-nav {
     display: flex;
     justify-content: space-between;
-    .next-post{
-        padding: 1em;
-        margin: 1em;
-        background-color: findLightColor($primary);
-        border-radius: 5px;
-        font-weight: bold;
-    }
-    .pre-post{
-        padding: 1em;
-        display: flex;
-        margin: 1em;
-        background-color: findLightColor($primary);
-        border-radius: 5px;
-        font-weight: bold;
-    }
-    .left-arrow{
-        display: flex;
-        background-color: $primary;
-    }
-    .next-post::after{
-        content: '\f054';
-        font-weight: 900;
-        font-family: 'Font Awesome 5 Free';
+    height: auto;
+    flex-wrap: wrap;
+    .pre-post, .next-post{
+        width: 300px;
+        height: 5em;
+        margin: 0.3em;
+        display: table;
+        border-collapse: collapse;
+        color: $primary-dark;
+        .pre-arrow, .next-arrow{
+            display: table-cell;
+            background-color: $primary;
+            vertical-align: middle;
+            text-align: center;
+            color: findColorInvert($primary);
+            width: 1.5em;
+        }
+        .pre-arrow {
+            border-radius: 5px 0 0 5px;
+        }
+        .next-arrow {
+            border-radius: 0 5px 5px 0;
+        }
+        .pre-title, .next-title{
+            display: table-cell;
+            vertical-align: middle;
+            background-color: lighten($primary, 35%);
+            padding: 0 0.5em;
+            strong {
+                padding: 0.5em;
+            }
+        }
+        .pre-title{
+            text-align: left;
+            border-radius: 0 5px 5px 0;
+        }
+        .next-title{
+            text-align: right;
+            border-radius: 5px 0 0 5px;
+        }
     }
 }
 
@@ -169,29 +186,17 @@ div.post-nav {
         margin-left: 1.5em;
         margin-bottom: 0;
         > ul {
-            margin: 0 0 0 0.5em;
+            margin: 0 0 0 0.5em;    // リーダーを行頭ツライチに
             padding-left: 0.5em;
+        }
+        li + li {
+            margin-top: 0em;        // リスト表示をコンパクトに
         }
     }
 }
 
-
-dl.note {
-    @include dl-mixin($grey-dark   , $grey    , $grey-lightest, '\f303');
-}
-
-dl.tip {
-    @include dl-mixin($success-dark, $success , $success-light, '\f058');
-}
-
-dl.info{
-    @include dl-mixin($info-dark   , $info    , $info-light   , '\f05a');
-}
-
-dl.warning{
-    @include dl-mixin($warning-dark, #ffbc6b, $warning-light, '\f071');
-}
-
-dl.caution{
-    @include dl-mixin($danger-dark , $danger  , $danger-light , '\f05e');
-}
+dl.note   { @include dl-mixin($grey-dark   , $grey    , $grey-lightest, '\f303'); }
+dl.tip    { @include dl-mixin($success-dark, $success , $success-light, '\f058'); }
+dl.info   { @include dl-mixin($info-dark   , $info    , $info-light   , '\f05a'); }
+dl.warning{ @include dl-mixin($warning-dark, #ffbc6b, $warning-light, '\f071'); }
+dl.caution{ @include dl-mixin($danger-dark , $danger  , $danger-light , '\f05e'); }
