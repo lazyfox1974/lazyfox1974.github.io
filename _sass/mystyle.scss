@@ -192,6 +192,9 @@ div.post-nav {
         li + li {
             margin-top: 0em;        // リスト表示をコンパクトに
         }
+        strong {
+            color: inherit;
+        }
     }
 }
 
