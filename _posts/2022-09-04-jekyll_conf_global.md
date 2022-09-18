@@ -3,8 +3,8 @@ layout: post
 title: jekyllのカスタマイズ(グローバル編)
 description: 
 date: 2022-09-04 04:30:00 +0900
+last_modified_at: 2022-09-19 06:30:00 +0900
 tags: jekyll
-render_with_liquid: false
 comments: true
 image: "/img/20220904_top.PNG"
 summary: サイト全般に関係する設定を紹介します
@@ -129,13 +129,13 @@ GitHub Pages自体リモートテーマには対応はしていますが、デ�
 デフォルトだとページ最上部のナビゲーションバーがサイト名だけでなんか寂しい。  
 というわけでサイトアイコンを追加してみました。
 ```html
-    <div class="navbar-brand">
+    <div class="navbar-brand">{% raw %}
         <a href="{{ site.baseurl }}/" class="navbar-item">
             <img class="pr-2" src="{{ '/assets/img/favicon.png' | relative_url }}"> <!-- これを追加 -->
             {{ site.title }}
         </a>
         以下省略...
-    </div>
+    </div>{% endraw %}
 ```
 {: .hljs data-title="_includes/header.html"}
 ナビゲーションバー内のレイアウトは`_include/header.html`のファイルにあるのでそれを編集します。
@@ -145,7 +145,7 @@ GitHub Pages自体リモートテーマには対応はしていますが、デ�
 
 ### ナビゲーションバーに各種ＳＮＳボタンを追加
 ```html
-    <div class="navbar-end">
+<div class="navbar-end">{% raw %}
         {% if site.twitter_username %}
         <a class="navbar-item" href="https://twitter.com/{{ site.twitter_username }}">
             <span class="icon"><i class="fab fa-lg fa-twitter"></i></span>
@@ -159,7 +159,7 @@ GitHub Pages自体リモートテーマには対応はしていますが、デ�
         <a class="navbar-item" href="{{ site.baseurl }}/feed.xml">
             <span class="icon"><i class="fas fa-lg fa-rss-square"></i></span>
         </a>
-    </div>
+    </div>{% endraw %}
     以下省略...
 ```
 {: .hljs data-title="_includes/header.html"}

@@ -3,10 +3,10 @@ layout: post
 title: jekyllのカスタマイズ(ポスト編)
 description: 
 date: 2022-09-19 06:00:00 +0900
+last_modified_at: 2022-09-19 06:30:00 +0900
 tags: jekyll
 comments: true
 mathjax: true
-render_with_liquid: false
 image: "/img/20220919_message.png"
 summary: ブログの投稿記事に関係する設定を紹介します
 excerpt: ""
@@ -19,11 +19,11 @@ excerpt: ""
 ## 設定
 ### 追加スクリプトの設定
 ```html
-<!-- head scripts -->
+<!-- head scripts -->{% raw %}
     <!-- mathjaxスクリプト注入 -->
     {% if page.mathjax %}{% include mathjax-v3.html %}{% endif %}
     <!-- highlight.jsスクリプト注入 -->
-    {% include highlight-js.html %}
+    {% include highlight-js.html %}{% endraw %}
 ```
 {: .hljs data-title="_includes/head-scripts.html"}
 
@@ -323,7 +323,7 @@ dl.caution{ @include dl-mixin($danger-dark , $danger , $danger-light , '\f05e');
 
 ### 記事の冒頭に投稿日と更新日を追加
 ```html
-<div class="content">
+<div class="content">{% raw %}
     <p class="post-date">
       <!-- 投稿日、更新日フォーマット変更 -->
       投稿日: {{ page.date | date_to_xmlschema | date: "%Y年%m月%d日 %H:%M %Z" }}
@@ -353,7 +353,7 @@ dl.caution{ @include dl-mixin($danger-dark , $danger , $danger-light , '\f05e');
 
 {% if site.disqus.shortname %}
   {% include disqus.html %}
-{% endif %}
+{% endif %}{% endraw %}
 ```
 {: .hljs data-title="_layouts/post.html"}
 投稿日だけでなく更新日も表示するようにします。それに合わせて日時のフォーマットを変更します。  
@@ -379,7 +379,7 @@ dl.caution{ @include dl-mixin($danger-dark , $danger , $danger-light , '\f05e');
 
 ### 記事ナビゲーションボタンの設置
 ```html
-<div class="post-nav">
+<div class="post-nav">{% raw %}
     <a class="pre-post {% unless page.previous %} is-invisible {% endunless %}" href="{{ page.previous.url }}">
         <div class="pre-arrow"><i class="fas fa-chevron-left"></i></div>
         <div class="pre-title">
@@ -394,7 +394,7 @@ dl.caution{ @include dl-mixin($danger-dark , $danger , $danger-light , '\f05e');
         </div>
         <div class="next-arrow"><i class="fas fa-chevron-right"></i></div>
     </a>
-</div>
+</div>{% endraw %}
 ```
 {: .hljs data-title="_include/post-nav.html"}
 
