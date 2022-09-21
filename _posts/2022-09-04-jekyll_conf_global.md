@@ -3,8 +3,8 @@ layout: post
 title: jekyllのカスタマイズ(グローバル編)
 description: 
 date: 2022-09-04 04:30:00 +0900
-last_modified_at: 2022-09-19 06:30:00 +0900
-tags: jekyll
+last_modified_at: 2022-09-21 22:00:00 +0900
+tags: [jekyll, github pages]
 comments: true
 image: "/img/20220904_top.PNG"
 summary: サイト全般に関係する設定を紹介します
