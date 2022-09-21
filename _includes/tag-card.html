@@ -4,7 +4,8 @@
     </header>
     <div class="card-content">
         <div class="content tags">
-            {% for tag in site.tags %}
+            {% assign sorted_tags = site.tags | sort %}
+            {% for tag in sorted_tags %}
             {% assign tagname=tag[0] %}
                 {% include tag.html tag=tagname style="is-info is-light is-medium"%}
             {% endfor %}
