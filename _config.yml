@@ -63,7 +63,6 @@ defaults:
       type: "pages"
     values:
       show_sidebar: true
-      excerpt: ""
 
   -
     scope:
@@ -74,7 +73,6 @@ defaults:
       layout: post
       image: "/assets/img/default.png"
       show_sidebar: true
-      excerpt: ""
 
 markdown: kramdown
 kramdown:

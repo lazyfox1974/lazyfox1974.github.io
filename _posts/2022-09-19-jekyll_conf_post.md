@@ -3,13 +3,12 @@ layout: post
 title: jekyllのカスタマイズ(ポスト編)
 description: 
 date: 2022-09-19 06:00:00 +0900
-last_modified_at: 2022-09-19 06:30:00 +0900
+last_modified_at: 2022-09-30 17:00:00 +0900
 tags: jekyll
 comments: true
 mathjax: true
 image: "/img/20220919_message.png"
 summary: ブログの投稿記事に関係する設定を紹介します
-excerpt: ""
 ---
 今回はブログ投稿記事で使用されるスタイル等の細々したものを説明していきます。  
 ここで紹介されているカスタマイズは、一部bulmaフレームワークの変数やヘルパー関数を使用していますが、基本的に使用しなくても実現可能です。

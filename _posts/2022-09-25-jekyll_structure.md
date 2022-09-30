@@ -3,11 +3,11 @@ layout: post
 title: jekyllの変数のデータ構造
 description: 
 date: 2022-09-25 12:00:00 +0900
+last_modified_at: 2022-09-30 17:00:00 +0900
 tags: jekyll 解析してみた
 image: "/img/20220925_structure.png"
 comments: true
 summary: jekyllの変数のデータ構造を紹介します
-excerpt: ""
 ---
 `liquid`で`jekyll`の変数を色々弄るのに、どんなデータ構造の構造体になっているのか気になったので調べてみました。
 

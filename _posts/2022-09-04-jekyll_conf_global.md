@@ -3,10 +3,11 @@ layout: post
 title: jekyllのカスタマイズ(グローバル編)
 description: 
 date: 2022-09-04 04:30:00 +0900
-last_modified_at: 2022-09-21 22:00:00 +0900
-tags: [jekyll, github pages]
+last_modified_at: 2022-09-30 17:00:00 +0900
+tags: [jekyll, GitHub Pages]
 comments: true
 image: "/img/20220904_top.PNG"
+excerpt: "Jekyllの説明とカスタマイズ方法を数回に分けて説明していきます。"
 summary: サイト全般に関係する設定を紹介します
 ---
 やっとサイトの公開まで漕ぎ着くことができました。  

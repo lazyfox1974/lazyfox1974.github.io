@@ -3,13 +3,13 @@ layout: post
 title: jekyllのカスタマイズ(スタイル編)
 description: 
 date: 2022-09-05 21:30:00 +0900
-last_modified_at: 2022-09-10 15:00:00 +0900
+last_modified_at: 2022-09-30 17:00:00 +0900
 tags: jekyll
 comments: true
 image: "/img/20220905_headline.png"
 summary: サイトのスタイルに関係する設定を紹介します
 ---
-今回はサイト全体に関わるスタイルについて説明します。
+今回はサイト全体に関わるスタイルについて説明します。日本語表示だとフォントや文字の大きさなどが微妙なので修正していきます。
 
 ## 設定
 ### app.scssの設定
