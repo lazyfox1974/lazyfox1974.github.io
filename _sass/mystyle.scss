@@ -107,12 +107,19 @@ div.post-nav {
         font-family: 'Font Awesome 5 Free';
     }
 
-    img.dropshadow {
-        -webkit-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
-        -moz-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
-        -ms-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
-        filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
-      }      
+    img{
+        &.dropshadow {
+            -webkit-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
+            -moz-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
+            -ms-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
+            filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
+        }
+
+        &.img-center{
+            display: block;
+            margin: auto;
+        }
+    }
 
     table{
         width: initial;
