@@ -3,7 +3,7 @@ layout: post
 title: jekyllのカスタマイズ(グローバル編)
 description: 
 date: 2022-09-04 04:30:00 +0900
-last_modified_at: 2022-09-30 17:00:00 +0900
+last_modified_at: 2022-11-15 12:00:00 +0900
 tags: [jekyll, GitHub Pages]
 comments: true
 image: "/img/20220904_top.PNG"
@@ -68,7 +68,7 @@ bulma-clean-themeとは、前述した**パーツをレイアウトしたテン�
 * Sassを使うことでカスタマイズが非常に容易
 * シンプルで見通しがいいので、覚えやすい
 
-…と、CSSフレームワーク初心者にも扱いやすいものとなっています。ハッキリ言いましょう、**好きです[^bloomer]**。
+…と、CSSフレームワーク初心者にも扱いやすいものとなっています。はい、**好きですよ[^bloomer]**？何か？
 
 [^bloomer]:「ぶるまスキスキ」とか言うと変態扱いされそう。ちなみに女性向け運動用半ズボンのことは「bloomer」と綴ります。名前の由来はアメリカ人のAmelia Bloomerさんが広めたことから来ているそうです。(Good Job!!)
 

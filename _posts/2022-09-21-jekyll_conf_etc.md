@@ -3,7 +3,7 @@ layout: post
 title: jekyllのカスタマイズ(その他)
 description: 
 date: 2022-09-21 23:45:00 +0900
-last_modified_at: 2022-09-30 17:00:00 +0900
+last_modified_at: 2022-11-15 12:00:00 +0900
 tags: jekyll
 image: "/img/20220921_file-not-found.png"
 comments: true
@@ -69,6 +69,9 @@ layout: default
 本文冒頭にある{% raw %}`{{ content }}`{% endraw %}は、このレイアウトファイルの参照元`tag/index.html`の本文に書いた内容がここに展開されます。
 ```scss
 .post-list {
+    ul{
+        margin-left: 1em !important;
+    }
     li{
         list-style-type: none;
         a{

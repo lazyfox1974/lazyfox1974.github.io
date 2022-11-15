@@ -6,6 +6,8 @@ h2 {
   
 h3 {
     padding: 6px 6px 6px 13px;
+    margin-left: 0.25em;
+    padding-left: 0.25em;
     border-bottom: dotted 1px $grey-light;
     border-left: 5px solid $primary;
 }
@@ -33,6 +35,9 @@ kbd {
 }
 
 .post-list {
+    ul{
+        margin-left: 1em !important;
+    }
     li{
         list-style-type: none;
         a{
@@ -101,6 +106,15 @@ div.post-nav {
 }
 
 .content {
+    &>p, &>dl, &>table, &>blockquote{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    &>ul{
+        margin-left: 3em;
+    }
+
     a[data-ext="true"]::after{
         content: ' \f35d';
         font-weight: 900;
@@ -163,8 +177,8 @@ div.post-nav {
 }
 
 @mixin dl-mixin($char-color, $border-color, $bg-color, $content) {
-    margin-left: 0.25em;
-    margin-right: 0.25em;
+    margin-left: 1.5em;
+    margin-right: 2em;
     padding: 0.5em 1.5em 0.75em 1em;
     color: $char-color;
     border-left: 0.3em solid $border-color;

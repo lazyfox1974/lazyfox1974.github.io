@@ -3,7 +3,7 @@ layout: post
 title: jekyllのカスタマイズ(スタイル編)
 description: 
 date: 2022-09-05 21:30:00 +0900
-last_modified_at: 2022-09-30 17:00:00 +0900
+last_modified_at: 2022-11-15 12:00:00 +0900
 tags: jekyll
 comments: true
 image: "/img/20220905_headline.png"
@@ -88,6 +88,8 @@ h2 {
   
 h3 {
     padding: 6px 6px 6px 13px;
+    margin-left: 0.25em;
+    padding-left: 0.25em;
     border-bottom: dotted 1px $grey-light;
     border-left: 5px solid $primary;
 }

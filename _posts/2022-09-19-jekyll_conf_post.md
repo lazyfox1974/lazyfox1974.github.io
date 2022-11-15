@@ -3,7 +3,7 @@ layout: post
 title: jekyllのカスタマイズ(ポスト編)
 description: 
 date: 2022-09-19 06:00:00 +0900
-last_modified_at: 2022-09-30 17:00:00 +0900
+last_modified_at: 2022-11-15 12:00:00 +0900
 tags: jekyll
 comments: true
 mathjax: true
@@ -234,8 +234,8 @@ Windowsでは<kbd>Ctrl</kbd> + <kbd>R</kbd>で、Macでは<kbd>&#x2318;cmd</kbd>
 ### 付箋風メッセージブロック
 ```scss
 @mixin dl-mixin($char-color, $border-color, $bg-color, $content) {
-    margin-left: 0.25em;
-    margin-right: 0.25em;
+    margin-left: 1.5em;
+    margin-right: 2em;
     padding: 0.5em 1.5em 0.75em 1em;
     color: $char-color;
     border-left: 0.3em solid $border-color;
@@ -319,6 +319,22 @@ dl.caution{ @include dl-mixin($danger-dark , $danger , $danger-light , '\f05e');
 警告
 : 定義リストに属性`{:.caution}`を付加するとこうなります。
 {:.caution}
+### 字下げの微調整
+```scss
+.content {
+    &>p, &>dl, &>table, &>blockquote{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    &>ul{
+        margin-left: 3em;
+    }
+}
+```
+{: .hljs data-title="_sass/mystyle.scss"}
+
+本文のコンテンツを見やすくするために、字下げで調整します。  
+(レスポンシブルデザインでは好まれませんが…)
 
 ### 記事の冒頭に投稿日と更新日を追加
 ```html
