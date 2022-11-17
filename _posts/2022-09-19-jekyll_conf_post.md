@@ -3,7 +3,7 @@ layout: post
 title: jekyllのカスタマイズ(ポスト編)
 description: 
 date: 2022-09-19 06:00:00 +0900
-last_modified_at: 2022-11-15 12:00:00 +0900
+last_modified_at: 2022-11-17 12:00:00 +0900
 tags: jekyll
 comments: true
 mathjax: true
@@ -326,7 +326,7 @@ dl.caution{ @include dl-mixin($danger-dark , $danger , $danger-light , '\f05e');
         margin-left: 1em;
         margin-right: 1em;
     }
-    &>ul{
+    &>ul, &>ol{
         margin-left: 3em;
     }
 }
