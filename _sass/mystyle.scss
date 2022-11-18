@@ -106,7 +106,7 @@ div.post-nav {
 }
 
 .content {
-    &>p, &>dl, &>table, &>blockquote{
+    &>p, &>dl, &>table, &>blockquote, &>pre{
         margin-left: 1em;
         margin-right: 1em;
     }
