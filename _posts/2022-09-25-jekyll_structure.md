@@ -1,9 +1,9 @@
 ---
 layout: post
 title: jekyllの変数のデータ構造
-description: 
+description: jekyllのテーマなどを弄る際、変数(オブジェクト)のデータ構造を知る必要があるので、それについて説明します。
 date: 2022-09-25 12:00:00 +0900
-last_modified_at: 2022-09-30 17:00:00 +0900
+last_modified_at: 2022-12-31 00:00:00 +0900
 tags: jekyll 解析してみた
 image: "/img/20220925_structure.png"
 comments: true
