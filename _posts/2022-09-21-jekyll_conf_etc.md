@@ -1,9 +1,9 @@
 ---
 layout: post
 title: jekyllのカスタマイズ(その他)
-description: 
+description: bulma-clean-themeでは、タグ別ポスト一覧ページ等は実装されていないので自分で実装していきます。
 date: 2022-09-21 23:45:00 +0900
-last_modified_at: 2022-11-15 12:00:00 +0900
+last_modified_at: 2023-01-03 12:00:00 +0900
 tags: jekyll
 image: "/img/20220921_file-not-found.png"
 comments: true

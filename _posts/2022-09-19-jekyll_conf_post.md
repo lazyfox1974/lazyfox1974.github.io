@@ -1,9 +1,9 @@
 ---
 layout: post
 title: jekyllのカスタマイズ(ポスト編)
-description: 
+description: jekyllのテーマのカスタマイズの内、mathjax対応、コードブロックや引用のスタイルのカスタマイズについてまとめます。
 date: 2022-09-19 06:00:00 +0900
-last_modified_at: 2022-11-18 12:00:00 +0900
+last_modified_at: 2023-01-03 09:00:00 +0900
 tags: jekyll
 comments: true
 mathjax: true

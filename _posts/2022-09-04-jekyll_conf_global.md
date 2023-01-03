@@ -1,9 +1,9 @@
 ---
 layout: post
 title: jekyllのカスタマイズ(グローバル編)
-description: 
+description: jekyllのテーマのカスタマイズの内、サイト全体に影響する設定についてまとめます。
 date: 2022-09-04 04:30:00 +0900
-last_modified_at: 2022-11-15 12:00:00 +0900
+last_modified_at: 2023-01-03 01:00:00 +0900
 tags: [jekyll, GitHub Pages]
 comments: true
 image: "/img/20220904_top.PNG"

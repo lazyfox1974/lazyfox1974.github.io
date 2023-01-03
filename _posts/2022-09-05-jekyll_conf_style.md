@@ -1,9 +1,9 @@
 ---
 layout: post
 title: jekyllのカスタマイズ(スタイル編)
-description: 
+description: jekyllのテーマのカスタマイズの内、フォントの書体や大きさ、見出しのスタイル等の変更についてまとめます。
 date: 2022-09-05 21:30:00 +0900
-last_modified_at: 2022-11-15 12:00:00 +0900
+last_modified_at: 2023-01-03 07:00:00 +0900
 tags: jekyll
 comments: true
 image: "/img/20220905_headline.png"
